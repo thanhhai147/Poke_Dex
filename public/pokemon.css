@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+};
+
+#navbar{
+    width: 100%;
+    height: 64px;
+}
+#contain{
+    background-color: #ececec;
+}
+#meditate{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#title_login{
+    height: 100%;
+    font-size: 40px;
+    color: #003A70;
+}
+#title{
+    font-size: 80px;
+    color: #FFCB05;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #3D7DCA;
+    text-shadow: -6px 6px #003A70;
+}
+#title:hover{
+    text-decoration: none;
+}
+.title{
+    text-align: center;
+}
+.id{
+    color: #FFCB05;
+    font-size: 34px;
+}
+.name{
+    color: #ffffff;
+    text-shadow: -5px 5px #003A70;
+    font-size: 60px;
+    text-transform: capitalize;
+}
+.main_box{
+    width: 100%;
+    border: 2px #3D7DCA solid;
+    border-radius: 13px;
+}
+.main_box:hover{
+    cursor: pointer;
+}
+.title_box{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    background-color: #3D7DCA;
+    border-radius: 20px;
+}
+.content_box{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #3D7DCA;
+    border-radius: 0px 10px 10px 0px;
+}
+.type{
+    color:#003A70;
+    font-size: 26px;
+    display: inline-block;
+    background-color: #FFCB05;
+    padding:4px 45px 4px 45px;
+    border-radius: 25px;
+}
+.normal{
+    background-color: #bbbbbb;
+    color: #003A70;
+}
+.fire{
+    background-color: #eb0000;
+    color: #ffffff;
+}
+.water{
+    background-color: #2727ff;
+    color: #ffffff;
+}
+.grass{
+    background-color: #008900;
+    color:#ffffff;
+}
+.electric{
+    background-color: #ffff00;
+    color: #003A70;
+}
+.ice{
+    background-color: #14f5ff;
+    color: #003A70;
+}
+.fighting{
+    background-color: #ff5314;
+    color: #ffffff;
+}
+.poison{
+    background-color: #800080;
+    color: #ffffff;
+}
+.ground{
+    background-color: #FFCB05;
+    color: #003A70;
+}
+.flying{
+    background-color: #87b5eb;
+    color: #003A70;
+}
+.psychic{
+    background-color: #e76dff;
+    color: #ffffff;
+}
+.bug{
+    background-color: #228b22;
+    color: #ffffff;
+}
+.rock{
+    background-color: #70483c;
+    color: #ffffff;
+}
+.ghost{
+    background-color: #590059;
+    color: #ffffff;
+}
+.dragon{
+    background-color: #5d8aa8;
+    color: #ffffff;
+}
+.dark{
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+.steel{
+    background-color: #43464B;
+    ;
+    color: #ffffff;
+}
+.fairy{
+    background-color: #f4bbff;
+    color: #003A70;
+}
+.stat_bar{
+    background-color: #3D7DCA;
+}
+.stat_point{
+    background-color: #FFCB05;
+}
+.stat_title{
+    font-size: 26px;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.smallImg{
+    width: 45%;
+    height: 45%;
+}
+.smallId{
+    color: #FFCB05;
+    font-size: 20px;
+}
+.smallName{
+    color: #ffffff;
+    text-shadow: -2px 2px #003A70;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.chain{
+    margin: 2%;
+    width: 100%;
+}
+.ele{
+    margin: 1%;
+    padding: 1%;
+    background-color: #3D7DCA;
+    border: 2px #3D7DCA solid;
+    border-radius: 13px;
+}
+.ele:hover{
+    cursor: pointer;
+}
+.smallType{
+    margin: 4px;
+    font-size: 20px;
+    padding: 4px 25px 4px 25px;
+    border-radius: 25px;
+}
+.arrow{
+    width: 100%;
+    height: 50%;
+}
+.like_icon{
+    z-index: 2;
+    position: absolute;
+    left: 2%;
+    top: 2%;
+}
+.bigImg{
+    z-index: 1;
+}
+.main_box{
+    background-color: #3D7DCA;
+}
+.img_box{
+    background-color: #ffffff;
+    border-radius: 13px 0px 0px 13px;
+}

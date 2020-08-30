@@ -1,0 +1,15 @@
+{
+  "name": "pokemon",
+  "version": "1.0.0",
+  "description": "pokemon_app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" :"node server.js"
+  },
+  "author": "T.Hai",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
